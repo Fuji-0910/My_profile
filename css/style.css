@@ -1,0 +1,217 @@
+body {
+  font-family: "Montserrat","Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
+  font-size: 15px;
+  letter-spacing: .05em;
+  color: #333333;
+}
+
+main {
+  padding-top: 130px;
+}
+
+/*ページ内リンクの位置調整*/
+section {
+  display: block;
+  padding-top: 1px;
+  margin-top: -1px;
+}
+
+/*header*/
+
+header {
+  z-index: 10;
+}
+
+header h1 {
+  font-size: 50px;
+  margin-left: 150px;
+}
+
+.title a {
+  text-decoration: none;
+  color: #333333;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  background-color: rgb(250, 128, 114, 1);
+}
+
+nav {
+  margin-left: 700px;
+  display: flex;
+}
+
+nav a {
+  font-size: 50px;
+  margin: 33.5px 25px;
+  justify-content: space-between;
+  text-decoration: none;
+  color: #333333;
+}
+
+nav > a:hover {
+  opacity: 0.5;
+}
+
+/*メイン画像*/
+
+.main-img {
+  text-align: center;
+}
+
+.main-img > img {
+  width: 50%;
+}
+
+/*Work*/
+
+#work {
+  margin: 20px 20px 0 20px;
+}
+
+.section-title > h1 {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 300px;
+}
+
+
+/*カルーセル*/
+.carouselImg {
+  box-shadow: 5px 5px 30px;
+  width: 500px;
+}
+
+.carouselImg1 {
+  box-shadow: 5px 5px 30px;
+  height: 281.25px;
+}
+
+.carousel {
+  margin-left: 300px;
+}
+
+.img-explain {
+  letter-spacing: 0.5px;
+}
+
+
+/*Skill*/
+
+.skill-table {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: rgb(250, 128, 114, 0.2);
+}
+
+.table-title {
+  font-size: 50px;
+  text-align: center;
+}
+
+.skill-content {
+  text-align: center;
+}
+
+
+/*About*/
+
+.about-name {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.about-hoby {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.about-content {
+  font-size: 30px;
+}
+
+.contact-button {
+  width: 400px;
+  margin-top: 300px;
+}
+
+.contact-img {
+  text-align: center;
+}
+
+.contact-imag > a {
+  transition: all 1.5s;
+}
+
+.contact-button:hover {
+  transform: scale(1.2,1.2);
+}
+
+
+/*フッター*/
+
+.copyright {
+  text-align: right;
+  font-size: 20px;
+}
+
+
+
+
+
+/*contactページ*/
+
+
+.back-btn {
+  margin-top: 10px;
+  margin-left: 100px;
+  font-weight: bold;
+}
+
+.back-btn > a {
+  text-decoration: none;
+  font-size: 40px;
+  color: #333333;
+}
+
+.back-btn > a:hover {
+  opacity: 0.5;
+}
+
+
+/*form*/
+
+#contact {
+  margin: 100px auto 0 100px;
+}
+
+.contact-head {
+  display: flex;
+  margin-top: 50px;
+}
+
+.label-head {
+  width: 600px;
+}
+
+.label-head > label {
+  margin-right: 200px;
+  font-size: 40px;
+}
+
+.text-content {
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  background-color: rgb(250, 128, 114, 0.2);
+  width: 300px;
+}
+
+#send-btn {
+  margin-top: 100px;
+  margin-left: 830px;
+  font-size: 30px;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>私のポートフォリオ</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <div class="back-btn">
+     <a href="index.html">ホームへ戻る</a>
+    </div>
+
+    <section id="contact">
+      <form action="https://api.staticforms.xyz/submit" method="post">
+        <input type="text" name="honeypot" style="display:none">
+           <!-- STATIC FORMSのアクセスキー -->
+           <input type="hidden" name="accessKey" value="b331d8c4-8fee-4f3e-97f5-30af4f4ed5fe">
+           <!--メールのタイトル-->
+           <input type="hidden" name="subject" value="お問い合わせフォーム">
+           <!--送信先のメールアドレスをvalueに設定する-->
+           <input type="hidden" name="replyTo" value="yuki2003910@yahoo.ne.jp">
+           <!--redirectToのURLは公開後のURLへリンクする-->
+           <input type="hidden" name="redirectTo" value="">
+
+
+        <div class="contact-head">
+          <div class="label-head">
+          <label>氏名</label>
+          </div>
+          <input name="name" class="text-content" type="text">
+        </div>
+
+        <div class="contact-head">
+          <div class="label-head">
+          <label>フリガナ</label>
+          </div>
+          <input name="hurigana" class="text-content" type="text">
+        </div>
+
+        <div class="contact-head">
+          <div class="label-head">
+          <label>メールアドレス</label>
+          </div>
+          <input name="email" class="text-content" type="text">
+        </div>
+
+        <div class="contact-head">
+          <div class="label-head">
+          <label>お問い合わせ内容</label>
+          </div>
+          <textarea name="message" class="text-content"></textarea>
+        </div>
+
+        <input id="send-btn" type="submit" value="送信"> 
+      </form>
+    </section>
+  </body>
+</html>
